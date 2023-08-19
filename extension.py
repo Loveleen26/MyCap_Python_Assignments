@@ -1,7 +1,7 @@
 #write a Python program to accept a filename from the user and print the extension of that.
 
-filename = input("Input the Filename: ")
-parts = filename.split(".")
+file = input("Input the Filename: ")
+parts = file.split(".")
 
 if len(parts) > 1:
     extension = parts[-1]
